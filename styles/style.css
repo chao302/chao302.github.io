@@ -1,0 +1,35 @@
+html {
+  font-size: 15px;
+  font-family: "Ma Shan Zheng", cursive;
+  font-family: "ZCOOL QingKe HuangYou", cursive;
+  background-color: antiquewhite;
+}
+body {
+  width: 600px; /*强制页面保持600像素宽*/
+  margin: 10px auto; /*第一个值代表上方和下方, 第二个值代表左边和右边,auto意思是左右对称*/
+  background-color: darksalmon; /*指定背景颜色*/
+  padding: 0 20px 20px 20px; /*设置内边距 */
+  border: 10px solid black; /*设置边框*/
+}
+h1 {
+  font-size: 30px;
+  text-align: center;
+  margin: 0;
+  padding: 10px 0;
+  /*为元素中的文本提供阴影 水平偏移值 垂直偏移值 模糊半径 基色*/
+  text-shadow: 3px 3px 10px rgb(163, 154, 134);
+}
+img {
+  width: 300px;
+  border: 10px solid rgb(40, 155, 201);
+  /*给予图片元素以块级行为*/
+  display: block;
+  /*图片居中*/
+  margin: 0 auto;
+}
+p,
+li {
+  font-size: 16px; /**/
+  line-height: 2; /*行高*/
+  letter-spacing: 1px; /*字间距*/
+}
